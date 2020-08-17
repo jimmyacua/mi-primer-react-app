@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import cars from "./data/cars.json";
 import ConditinalSection from "./sections/conditional";
+import Formulario from "./sections/forms";
 
 /* function Hello(props) {
   return <h2>{props.title}</h2>
@@ -126,6 +127,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>Aprender React </p>
           {/* FORM*/}
+          <Formulario></Formulario>
           <h4>Eventos</h4>
           <button onClick={this.handleClick}>Hola</button>
           <div
